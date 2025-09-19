@@ -1,0 +1,98 @@
+{
+  "AAVE-USDT": {
+    "in_stock": {
+      "EXMO": "AAVE_USDT",
+      "OKX": "AAVE-USDT",
+      "HTX": "aaveusdt",
+      "MEXC": "AAVEUSDT"
+    }
+  },
+  "ACT-USDT": {
+    "in_stock": {
+      "EXMO": "ACT_USDT",
+      "OKX": "ACT-USDT",
+      "MEXC": "ACTUSDT"
+    }
+  },
+  "ADA-BTC": {
+    "in_stock": {
+      "EXMO": "ADA_BTC",
+      "HTX": "adabtc",
+      "MEXC": "ADABTC"
+    }
+  },
+  "ADA-USDT": {
+    "in_stock": {
+      "EXMO": "ADA_USDT",
+      "OKX": "ADA-USDT",
+      "HTX": "adausdt",
+      "BIT": "ADA-USDT",
+      "MEXC": "ADAUSDT"
+    }
+  },
+  "AI16Z-USDT": {
+    "in_stock": {
+      "EXMO": "AI16Z_USDT",
+      "HTX": "ai16zusdt",
+      "MEXC": "AI16ZUSDT"
+    }
+  },
+  "AIXBT-USDT": {
+    "in_stock": {
+      "EXMO": "AIXBT_USDT",
+      "OKX": "AIXBT-USDT",
+      "HTX": "aixbtusdt",
+      "MEXC": "AIXBTUSDT"
+    }
+  },
+  "ALCH-USDT": {
+    "in_stock": {
+      "EXMO": "ALCH_USDT",
+      "HTX": "alchusdt",
+      "MEXC": "ALCHUSDT"
+    }
+  },
+  "ALGO-BTC": {
+    "in_stock": {
+      "EXMO": "ALGO_BTC"
+    }
+  },
+  "ALGO-USDT": {
+    "in_stock": {
+      "EXMO": "ALGO_USDT",
+      "OKX": "ALGO-USDT",
+      "HTX": "algousdt",
+      "MEXC": "ALGOUSDT"
+    }
+  },
+  "ARB-USDT": {
+    "in_stock": {
+      "EXMO": "ARB_USDT",
+      "OKX": "ARB-USDT",
+      "HTX": "arbusdt",
+      "MEXC": "ARBUSDT"
+    }
+  },
+  "ATOM-BTC": {
+    "in_stock": {
+      "EXMO": "ATOM_BTC",
+      "MEXC": "ATOMBTC"
+    }
+  },
+  "ATOM-USDT": {
+    "in_stock": {
+      "EXMO": "ATOM_USDT",
+      "OKX": "ATOM-USDT",
+      "HTX": "atomusdt",
+      "MEXC": "ATOMUSDT"
+    }
+  },
+  "AXS-USDT": {
+    "in_stock": {
+      "EXMO": "AXS_USDT",
+      "OKX": "AXS-USDT",
+      "HTX": "axsusdt",
+      "MEXC": "AXSUSDT"
+    }
+  }
+}
