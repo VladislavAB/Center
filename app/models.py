@@ -11,7 +11,7 @@ class Stock(models.Model):
 
 
 class Symbol(models.Model):
-    """ Универсальный торговый символ (например, BTC/USDT). """
+    """ Универсальный торговый символ (например, BTC-USDT). """
 
     name = models.CharField(max_length=100, unique=True)
 
@@ -34,10 +34,8 @@ class SymbolOnStock(models.Model):
 
 
 class Agent(models.Model):
-    """
-    Агент — пользовательский объект, где вручную выбираем символы и биржи.
-    После сохранения подтягиваются все соответствующие SymbolOnStock.
-    """
+    """ Агент — вручную выбираем символы и биржи. После сохранения подтягиваются все соответствующие SymbolOnStock. """
+
     name = models.CharField(max_length=100, unique=True)
 
     # выбор нескольких символов и бирж

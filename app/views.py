@@ -4,9 +4,8 @@ from .models import Agent, SymbolOnStock
 
 
 def agent_symbols_api(request, agent_name):
-    """
-    Получаем JSON с символами агента, их биржами и именами на биржах.
-    """
+    """ Получаем JSON с символами агента, их биржами и именами на биржах. """
+
     try:
         agent = Agent.objects.get(name=agent_name)
     except Agent.DoesNotExist:
@@ -15,8 +14,7 @@ def agent_symbols_api(request, agent_name):
     # Все SymbolOnStock, которые соответствуют выбранным symbols и stocks агента
     sos = SymbolOnStock.objects.filter(
         symbol__in=agent.symbols.all(),
-        stock__in=agent.stocks.all()
-    )
+        stock__in=agent.stocks.all())
 
     result = {}
 
